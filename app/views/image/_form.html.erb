@@ -1,0 +1,10 @@
+<%= form_with(model: image) do |form| %>
+
+  <div class="field">
+    <%= form.text_field :image_url %>
+  </div>
+<br>
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
